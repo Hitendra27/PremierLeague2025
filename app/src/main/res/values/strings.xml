@@ -1,3 +1,90 @@
 <resources>
     <string name="app_name">PremierLeague</string>
+
+    // Premier League Teams info
+    <string name="arsenal">Arsenal</string>
+    <string name="arsenal_subtitle">Arsenal Football Club is a professional football club based in Islington, London. They are one of the most successful clubs in English football history.</string>
+    <string name="arsenal_established">1886</string>
+    <string name="arsenal_details">
+        Arsenal Football Club was founded in October 1886 by a group of workers from the Royal Arsenal in Woolwich, London.  Initially known as Dial Square, the club quickly evolved through name changes like Royal Arsenal and Woolwich Arsenal before their significant move to Highbury in North London in 1913, officially becoming "The Arsenal". This move marked a pivotal moment in their history, establishing their presence in a new part of the city and laying the groundwork for their future development.\n\n
+        The club has a rich history of success, particularly in the English top flight and the FA Cup. Arsenal holds the record for the longest uninterrupted spell in the English top division and are one of the few clubs to have won the Premier League title without losing a single match, a feat achieved by the legendary "Invincibles" team in the 2003-2004 season. Their commitment to attractive, attacking football has been a hallmark throughout various eras, earning them a reputation for flair and technical skill.\n\n
+        Highbury served as Arsenal\'s home stadium for 93 years before the club moved to the Emirates Stadium in 2006. The Emirates Stadium is a modern, state-of-the-art venue that reflects the club\'s status as a global footballing power. This transition to a larger stadium was crucial for the club\'s growth, allowing for increased capacity and improved facilities, enhancing the matchday experience for their loyal fanbase and accommodating their expanding global support.\n\n
+        Arsenal boasts a passionate and global fanbase. They have a long-standing rivalry with North London neighbours Tottenham Hotspur, with matches between the two clubs being fiercely contested affairs. The club continues to compete at the highest level of English and European football, striving for further success and upholding their traditions of exciting football and a commitment to youth development. Their pursuit of excellence on and off the pitch remains a central part of the club\'s identity.
+    </string>
+
+        <string name="liverpool">Liverpool</string>
+        <string name="liverpool_subtitle">Liverpool Football Club is a professional football club based in Liverpool, England. They are one of the most successful and widely supported clubs in the world.</string>
+        <string name="liverpool_established">1892</string>
+        <string name="liverpool_details">
+        Liverpool Football Club was founded in 1892 following a dispute between the committee of Everton and John Houlding, the club\'s president and owner of the Anfield ground. Houlding created Liverpool F.C. to play at Anfield, while Everton moved to Goodison Park.  Liverpool quickly established themselves in the English Football League, winning their first League Championship in 1901. The club\'s early years were marked by rapid growth and success, laying the foundation for their future dominance.\n\n
+        Liverpool is renowned for its unparalleled success in both domestic and European competitions. They have won numerous English top-flight titles, FA Cups, and League Cups. Their European record is particularly impressive, with multiple UEFA Champions League titles, making them one of the most successful English clubs in European history. The club\'s history is filled with legendary managers and players who contributed to their iconic status.\n\n
+        Anfield has been Liverpool\'s home stadium since the club\'s formation. It is one of the most famous football stadiums in the world, known for its unique atmosphere and passionate fanbase. The Kop stand, in particular, is legendary for its fervent support. Anfield has undergone several expansions and renovations over the years to maintain its status as a top-tier venue, while retaining its historical significance and connection to the club\'s heritage.\n\n
+        Liverpool has a massive and devoted global fanbase, known for their iconic anthem "You\'ll Never Walk Alone." The club has a strong rivalry with fellow Merseyside club Everton (the Merseyside Derby) and a historic rivalry with Manchester United. Liverpool continues to compete at the highest level, maintaining a commitment to attacking football and developing talent through its academy, upholding its rich traditions and striving for continued success.
+    </string>
+
+        <string name="man_city">Manchester City</string>
+        <string name="man_city_subtitle">Manchester City Football Club is a professional football club based in Manchester, England. They have risen to prominence in recent years, achieving significant domestic and European success.</string>
+        <string name="man_city_established">1880</string>
+        <string name="man_city_details">
+        Manchester City was founded in 1880 as St. Mark\'s (West Gorton), later becoming Ardwick Association Football Club in 1887, and finally Manchester City in 1894. The club had periods of success in the early 20th century but also experienced fluctuating fortunes, including spells outside the top flight. The early history is marked by community involvement and a presence in Manchester\'s footballing landscape, setting the stage for future developments.\n\n
+        The club experienced a resurgence and unprecedented success following significant investment in the late 2000s. Manchester City has won multiple Premier League titles, FA Cups, and League Cups in recent years, establishing themselves as a dominant force in English football. They have also achieved significant success in European competitions, culminating in winning the UEFA Champions League. This era is characterized by a high level of performance and tactical innovation.\n\n
+        Manchester City played at Maine Road for many years before moving to the City of Manchester Stadium (now the Etihad Stadium) in 2003. The Etihad Stadium is a modern, large-capacity stadium that was originally built for the 2002 Commonwealth Games. The move to a larger and more modern stadium was a key step in the club\'s growth and ability to accommodate its expanding fanbase, providing state-of-the-art facilities for players and supporters alike.\n\n
+        Manchester City has a rapidly growing global fanbase, fueled by their recent success and attractive style of play. Their main rivalry is with Manchester United (the Manchester Derby), one of the most fiercely contested derbies in world football. The club is known for its commitment to developing youth talent and its global reach, continuing to build on its recent achievements and aiming for sustained success at the highest level of the sport.
+    </string>
+
+        <string name="newcastle">Newcastle United</string>
+        <string name="newcastle_subtitle">Newcastle United Football Club is a professional football club based in Newcastle upon Tyne, England. They are known for their passionate fanbase and historic St James\' Park stadium.</string>
+        <string name="newcastle_established">1892</string>
+        <string name="newcastle_details">
+        Newcastle United was formed in 1892 through the merger of two local football clubs, Newcastle East End and Newcastle West End. The club quickly established itself as a major force in English football, winning the Football League First Division title multiple times in the early 20th century and reaching several FA Cup finals. The club\'s formation marked the consolidation of footballing power in the city and the beginning of a rich history.\n\n
+        Newcastle United has a history marked by periods of success and periods of struggle. They have won domestic trophies throughout their history, including the FA Cup. While they have not won the top flight title since 1927, they have had memorable periods in the Premier League, including title challenges. The club is known for its attacking football and iconic players who have worn the black and white stripes.\n\n
+        St James\' Park has been Newcastle United\'s home ground since their formation in 1892. It is the oldest football stadium in North East England and the eighth-largest in the United Kingdom. St James\' Park is renowned for its location in the city centre and its incredibly passionate and vocal support. The stadium has undergone significant redevelopment over the years to increase capacity and improve facilities, while maintaining its unique character and atmosphere.\n\n
+        Newcastle United boasts one of the most passionate and loyal fanbases in England, known as the "Toon Army." The club has local rivalries with Sunderland (the Tyne–Wear Derby) and Middlesbrough. Newcastle United continues to be a prominent club in English football, striving to compete at the highest level and bring further success to its dedicated supporters. The connection between the club and its city is incredibly strong, a key part of its identity.
+    </string>
+
+        <!-- Chelsea FC -->
+        <string name="chelsea">Chelsea</string>
+        <string name="chelsea_subtitle">Chelsea Football Club is a professional football club based in Fulham, London. They are one of the most successful clubs in English football since the early 2000s.</string>
+        <string name="chelsea_established">1905</string>
+        <string name="chelsea_details">
+        Chelsea Football Club was founded on 10 March 1905 in The Public House opposite the entrance to the Fulham Road ground, now known as Stamford Bridge. They were elected to the Football League shortly after and quickly established themselves, reaching the FA Cup final in 1915. The early years saw the club attract large crowds and feature prominent players, building a foundation for future success and a loyal fanbase.\n\n
+        Chelsea has enjoyed significant success, particularly in the Premier League era. The club has won multiple Premier League titles, FA Cups, League Cups, and has a strong record in European competitions, including multiple UEFA Champions League and UEFA Europa League titles. This period of dominance has been marked by periods of significant investment and tactical innovation, establishing Chelsea as a major force in both domestic and European football.\n\n
+        Stamford Bridge has been Chelsea\'s home ground since its foundation in 1905. It is one of the oldest football stadiums in London and has undergone several redevelopments over the years to increase capacity and improve facilities. The stadium is known for its close proximity to the pitch, creating an intense atmosphere on match days and remaining a crucial part of the club\'s identity and history.\n\n
+        Chelsea boasts a large and passionate global fanbase. They have notable rivalries with fellow London clubs Arsenal and Tottenham Hotspur, as well as a historic rivalry with Leeds United. The club continues to compete at the highest levels of the game, aiming for further silverware and maintaining its reputation for developing talented players and playing an exciting style of football.
+    </string>
+
+        <!-- Brentford FC -->
+        <string name="brentford">Brentford</string>
+        <string name="brentford_subtitle">Brentford Football Club is a professional football club based in Brentford, West London. They are known for their data-driven approach and strong community links.</string>
+        <string name="brentford_established">1889</string>
+        <string name="brentford_details">
+        Brentford Football Club was founded in 1889 by members of the Brentford rowing club who were looking for a winter sport. They initially played rugby before switching to association football in 1898. The club joined the Football League in 1920 and enjoyed a successful spell in the top flight in the 1930s. The early history is marked by the club\'s close ties to the local community and its evolution into a footballing entity.\n\n
+        Brentford\'s modern era is characterized by a unique and analytical approach to player recruitment and club management, often referred to as "Moneyball." This strategy has helped them achieve promotion to the Premier League and compete effectively despite having a smaller budget than many of their rivals. The club is recognized for its attacking style of play and its ability to identify and develop talent.\n\n
+        Brentford played at Griffin Park from 1904 to 2020, a ground known for its unique pub in each corner. In 2020, they moved to the new Brentford Community Stadium (now Gtech Community Stadium). This modern stadium has significantly increased capacity and provides state-of-the-art facilities, representing a major step forward for the club while maintaining a strong connection to its West London roots.\n\n
+        Brentford has a loyal and dedicated fanbase, known as the "Bees." They have local rivalries with fellow West London clubs, including Fulham and Queens Park Rangers. The club continues to establish itself in the top tier of English football, relying on its smart operational strategy and strong team spirit to compete and aim for sustained success.
+    </string>
+
+        <!-- Brighton & Hove Albion FC -->
+        <string name="brighton">Brighton &amp; Hove Albion</string>
+        <string name="brighton_subtitle">Brighton &amp; Hove Albion Football Club is a professional football club based in Brighton and Hove, East Sussex. They are recognized for their attractive style of play and strong academy.</string>
+        <string name="brighton_established">1901</string>
+        <string name="brighton_details">
+        Brighton &amp; Hove Albion Football Club was founded in 1901 and joined the Football League in 1920. They won the FA Charity Shield in 1910 and had periods of success in the lower leagues. The early history saw the club establish itself in the footballing landscape of the south coast, building a fanbase and developing its identity within the Football League system.\n\n
+        The club has experienced significant progress in recent years, achieving promotion to the Premier League in 2017 and establishing itself as a stable top-flight club. Brighton is known for its attractive, possession-based football style and its successful player development pathway through its academy. They have consistently challenged higher up the table and achieved European qualification in recent seasons.\n\n
+        Brighton played at the Goldstone Ground for 97 years before facing a period of homelessness and groundsharing. In 2011, they moved to the Falmer Stadium (now the American Express Community Stadium or Amex Stadium). This modern, purpose-built stadium marked a new era for the club, providing excellent facilities and a much larger capacity, which has been crucial for their growth and establishment in the Premier League.\n\n
+        Brighton &amp; Hove Albion has a strong and committed fanbase. They have a notable rivalry with Crystal Palace, known as the A23 Derby. The club continues to invest in its infrastructure and playing squad, aiming to consolidate its position in the Premier League and compete for further success in domestic and European competitions.
+    </string>
+
+        <!-- Aston Villa FC -->
+        <string name="aston_villa">Aston Villa</string>
+        <string name="aston_villa_subtitle">Aston Villa Football Club is a professional football club based in Aston, Birmingham. They are one of the oldest and most successful clubs in English football history.</string>
+        <string name="aston_villa_established">1874</string>
+        <string name="aston_villa_details">
+        Aston Villa Football Club was founded in March 1874 by members of the Villa Cross Wesleyan Chapel cricket team who wanted a sport to play during the winter. They quickly became one of the founding members of the Football League in 1888 and were dominant in the Victorian and Edwardian eras, winning numerous league titles and FA Cups. The club\'s early history is marked by its significant role in the formation and early years of English football.\n\n
+        Aston Villa has a rich history of success, including multiple English league titles and FA Cups. They are one of only five English clubs to have won the European Cup (now the UEFA Champions League), achieving this in 1982. While they have experienced periods of fluctuating fortunes, including relegation from the Premier League, they remain a club with a strong heritage and a dedicated fanbase.\n\n
+        Villa Park has been Aston Villa\'s home ground since 1897. It is one of the most historic and well-known football stadiums in England. Villa Park has hosted numerous FA Cup semi-finals and international matches. The stadium has undergone significant redevelopments over the years to modernize its facilities while preserving its classic architecture and unique atmosphere.\n\n
+        Aston Villa boasts a large and passionate fanbase. They have a fierce local rivalry with Birmingham City, known as the Second City Derby. The club continues to compete in the Premier League, striving to return to the heights of its past success and challenge for major honors. Its history and tradition remain a central part of the club\'s identity.
+    </string>
+
+
 </resources>
