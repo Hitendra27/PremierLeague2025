@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">PremierLeague</string>
 
-    // Premier League Teams info
+    <!-- Premier League Teams info -->
+    <!-- Arsenal FC -->
     <string name="arsenal">Arsenal</string>
     <string name="arsenal_subtitle">Arsenal Football Club is a professional football club based in Islington, London. They are one of the most successful clubs in English football history.</string>
     <string name="arsenal_established">1886</string>
@@ -12,6 +13,7 @@
         Arsenal boasts a passionate and global fanbase. They have a long-standing rivalry with North London neighbours Tottenham Hotspur, with matches between the two clubs being fiercely contested affairs. The club continues to compete at the highest level of English and European football, striving for further success and upholding their traditions of exciting football and a commitment to youth development. Their pursuit of excellence on and off the pitch remains a central part of the club\'s identity.
     </string>
 
+    <!-- Liverpool FC -->
         <string name="liverpool">Liverpool</string>
         <string name="liverpool_subtitle">Liverpool Football Club is a professional football club based in Liverpool, England. They are one of the most successful and widely supported clubs in the world.</string>
         <string name="liverpool_established">1892</string>
@@ -22,6 +24,7 @@
         Liverpool has a massive and devoted global fanbase, known for their iconic anthem "You\'ll Never Walk Alone." The club has a strong rivalry with fellow Merseyside club Everton (the Merseyside Derby) and a historic rivalry with Manchester United. Liverpool continues to compete at the highest level, maintaining a commitment to attacking football and developing talent through its academy, upholding its rich traditions and striving for continued success.
     </string>
 
+    <!-- Man city FC -->
         <string name="man_city">Manchester City</string>
         <string name="man_city_subtitle">Manchester City Football Club is a professional football club based in Manchester, England. They have risen to prominence in recent years, achieving significant domestic and European success.</string>
         <string name="man_city_established">1880</string>
@@ -31,6 +34,8 @@
         Manchester City played at Maine Road for many years before moving to the City of Manchester Stadium (now the Etihad Stadium) in 2003. The Etihad Stadium is a modern, large-capacity stadium that was originally built for the 2002 Commonwealth Games. The move to a larger and more modern stadium was a key step in the club\'s growth and ability to accommodate its expanding fanbase, providing state-of-the-art facilities for players and supporters alike.\n\n
         Manchester City has a rapidly growing global fanbase, fueled by their recent success and attractive style of play. Their main rivalry is with Manchester United (the Manchester Derby), one of the most fiercely contested derbies in world football. The club is known for its commitment to developing youth talent and its global reach, continuing to build on its recent achievements and aiming for sustained success at the highest level of the sport.
     </string>
+
+    <!-- Newcastle FC -->
 
         <string name="newcastle">Newcastle United</string>
         <string name="newcastle_subtitle">Newcastle United Football Club is a professional football club based in Newcastle upon Tyne, England. They are known for their passionate fanbase and historic St James\' Park stadium.</string>
@@ -51,6 +56,39 @@
         Chelsea has enjoyed significant success, particularly in the Premier League era. The club has won multiple Premier League titles, FA Cups, League Cups, and has a strong record in European competitions, including multiple UEFA Champions League and UEFA Europa League titles. This period of dominance has been marked by periods of significant investment and tactical innovation, establishing Chelsea as a major force in both domestic and European football.\n\n
         Stamford Bridge has been Chelsea\'s home ground since its foundation in 1905. It is one of the oldest football stadiums in London and has undergone several redevelopments over the years to increase capacity and improve facilities. The stadium is known for its close proximity to the pitch, creating an intense atmosphere on match days and remaining a crucial part of the club\'s identity and history.\n\n
         Chelsea boasts a large and passionate global fanbase. They have notable rivalries with fellow London clubs Arsenal and Tottenham Hotspur, as well as a historic rivalry with Leeds United. The club continues to compete at the highest levels of the game, aiming for further silverware and maintaining its reputation for developing talented players and playing an exciting style of football.
+    </string>
+
+        <!-- Nottingham Forest FC -->
+        <string name="nottingham_forest">Nottingham Forest</string>
+        <string name="nottingham_forest_subtitle">Nottingham Forest Football Club is a professional football club based in West Bridgford, Nottinghamshire. They are historically known for their European Cup successes under Brian Clough.</string>
+        <string name="nottingham_forest_established">1865</string>
+        <string name="nottingham_forest_details">
+        Nottingham Forest Football Club was founded in 1865, making them one of the oldest football clubs in England. The club was a founding member of the Football Alliance in 1889 and joined the Football League in 1892. They had early success, winning the FA Cup in 1898. The club\'s roots are deeply embedded in the history of English football, predating the formation of the Football League.\n\n
+        Nottingham Forest\'s most celebrated era was under the management of Brian Clough and Peter Taylor in the late 1970s and early 1980s. During this period, they famously won the European Cup twice consecutively (1979 and 1980), a remarkable achievement for a club of their size. They also won the First Division title and multiple League Cups. This golden era cemented their place in European football history.\n\n
+        The City Ground has been Nottingham Forest\'s home ground since 1898. Located on the banks of the River Trent, it is a historic stadium with a strong atmosphere, particularly during important matches. The stadium has undergone various modernizations over the years to meet safety standards and improve facilities, while retaining its classic layout and its importance to the club and its supporters.\n\n
+        Nottingham Forest has a passionate fanbase, primarily from Nottinghamshire and the surrounding areas. They have a fierce local rivalry with Derby County, known as the East Midlands Derby. The club has experienced periods in lower divisions but has recently returned to the Premier League, aiming to re-establish itself and build towards future success, relying on its historic legacy and loyal support.
+    </string>
+
+        <!-- Manchester United FC -->
+        <string name="man_united">Manchester United</string>
+        <string name="man_united_subtitle">Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester. They are one of the most popular and successful football clubs globally.</string>
+        <string name="man_united_established">1878</string>
+        <string name="man_united_details">
+        Manchester United was founded in 1878 as Newton Heath LYR Football Club by the Carriage and Wagon department of the Lancashire and Yorkshire Railway depot at Newton Heath. They joined the Football League in 1892 and changed their name to Manchester United in 1902. The club had early success, winning their first League Championship in 1908 and FA Cup in 1909. The club\'s origins are tied to the railway industry and its initial steps into professional football.\n\n
+        Manchester United boasts a record 20 English top-flight titles and is one of the most successful clubs in English football history. They have won numerous FA Cups, League Cups, and are one of only a few English clubs to have won the European Cup/Champions League multiple times. The club has had periods of exceptional dominance, particularly under managers like Sir Matt Busby and Sir Alex Ferguson, overcoming adversity like the Munich air disaster.\n\n
+        Old Trafford has been Manchester United\'s home ground since 1910. Nicknamed "The Theatre of Dreams" by Sir Bobby Charlton, it is one of the most iconic and largest club football stadiums in England. Old Trafford has undergone significant expansion and modernization over the decades, reflecting the club\'s growth and global standing, providing a massive capacity and a world-renowned matchday experience.\n\n
+        Manchester United has an immense and dedicated global fanbase, making them one of the most widely supported clubs in the world. Their main rivalry is with Liverpool, a historic and intense fixture, and also a fierce local rivalry with Manchester City. The club continues to be a global footballing powerhouse, striving for further success and maintaining its position at the pinnacle of the sport, driven by its history and massive support.
+    </string>
+
+        <!-- Tottenham Hotspur FC -->
+        <string name="tottenham">Tottenham Hotspur</string>
+        <string name="tottenham_subtitle">Tottenham Hotspur Football Club is a professional football club based in Tottenham, London. They are known for their attacking football and historic rivalry with Arsenal.</string>
+        <string name="tottenham_established">1882</string>
+        <string name="tottenham_details">
+        Tottenham Hotspur Football Club was founded in 1882 as Hotspur F.C. by a group of schoolboys and changed their name to Tottenham Hotspur in 1884 to avoid confusion with another club. They joined the Football League in 1908 and won the FA Cup in 1901, becoming the only non-League club to do so since the formation of the Football League. The club\'s early history is marked by community origins and rapid progress into professional football.\n\n
+        Tottenham Hotspur has a history of winning major domestic trophies, including multiple FA Cups and League Cups. They were the first English club to win a European trophy, lifting the European Cup Winners\' Cup in 1963. The club is known for its commitment to attacking football and has featured many celebrated players throughout its history. While the league title has remained elusive in the Premier League era, they have consistently challenged at the top end of the table.\n\n
+        Tottenham played at White Hart Lane from 1899 until 2017, a stadium deeply ingrained in the club\'s identity. In 2019, they moved into the new Tottenham Hotspur Stadium, built on the site of White Hart Lane. This state-of-the-art stadium is one of the most technologically advanced in the world, providing a significantly increased capacity and modern facilities, while aiming to replicate the atmosphere of the old ground.\n\n
+        Tottenham Hotspur has a large and passionate fanbase, primarily from North London and the surrounding areas. They have a fierce and historic rivalry with North London neighbours Arsenal, known as the North London Derby, one of the most anticipated fixtures in the English football calendar. The club continues to compete at the highest level, aiming for silverware and maintaining its reputation for playing exciting, attacking football.
     </string>
 
         <!-- Brentford FC -->
@@ -86,5 +124,103 @@
         Aston Villa boasts a large and passionate fanbase. They have a fierce local rivalry with Birmingham City, known as the Second City Derby. The club continues to compete in the Premier League, striving to return to the heights of its past success and challenge for major honors. Its history and tradition remain a central part of the club\'s identity.
     </string>
 
+<!--         AFC Bournemouth -->
+        <string name="bournemouth">AFC Bournemouth</string>
+        <string name="bournemouth_subtitle">AFC Bournemouth is a professional football club based in Kings Park, Bournemouth, Dorset. They are known for their journey from the lower leagues to the Premier League.</string>
+        <string name="bournemouth_established">1899</string>
+        <string name="bournemouth_details">
+        AFC Bournemouth was founded in 1899 as Boscombe St. John\'s Institute F.C., adopting the name Boscombe F.C. in 1910. They were elected to the Football League in 1923. The club changed its name to Bournemouth &amp; Boscombe Athletic F.C. in 1923 and finally to AFC Bournemouth in 1971. The early history is marked by the club\'s local roots and its initial steps into professional football.\n\n
+        Bournemouth\'s most notable period of success came in the 21st century under manager Eddie Howe, who led them from League Two to the Premier League between 2008 and 2015. Their promotion to the top flight in 2015 was a remarkable achievement for a club with limited resources. While they have experienced relegation, they have also shown resilience in returning to the Premier League, establishing themselves as a competitive side.\n\n
+        The Vitality Stadium, also known as Dean Court, has been Bournemouth\'s home ground for most of their history. It is the smallest stadium in the Premier League by capacity but is known for its close proximity to the pitch and intimate atmosphere. The stadium has been redeveloped over the years to meet the requirements of higher leagues, remaining the heart of the club despite its size.\n\n
+        AFC Bournemouth has a loyal fanbase, primarily from the local area. They have a notable South Coast rivalry with Southampton. The club continues to operate with a focus on smart recruitment and tactical flexibility, aiming to consolidate its position in the Premier League and compete against larger clubs through shrewd management and a strong team spirit.
+    </string>
+
+        <!-- Crystal Palace FC -->
+        <string name="crystal_palace">Crystal Palace</string>
+        <string name="crystal_palace_subtitle">Crystal Palace Football Club is a professional football club based in Selhurst, South London. They are known for their passionate support and iconic stadium.</string>
+        <string name="crystal_palace_established">1905</string>
+        <string name="crystal_palace_details">
+        Crystal Palace Football Club was founded in 1905 at the Crystal Palace exhibition building by the owners of the FA Cup Final ground. They joined the Football League in 1920. The club has experienced periods of fluctuating fortunes throughout its history, moving between the top divisions of English football. The club\'s formation is linked to the historic Crystal Palace structure, giving it a unique origin.\n\n
+        Crystal Palace is known for its resilience and ability to maintain its Premier League status, often punching above its weight. They have had memorable cup runs and periods of strong performance in the top flight. The club is recognized for its attacking flair and reliance on individual brilliance, often making for exciting and unpredictable matches.\n\n
+        Selhurst Park has been Crystal Palace\'s home stadium since 1924. Located in South London, it is known for its vibrant atmosphere and passionate fanbase, particularly the Holmesdale Road end. The stadium has undergone various improvements over the years to enhance the matchday experience while retaining its classic English football ground feel and its importance to the club\'s identity.\n\n
+        Crystal Palace has a dedicated fanbase, primarily in South London and the surrounding areas. They have a fierce rivalry with Brighton &amp; Hove Albion, known as the A23 Derby. The club continues to compete in the Premier League, aiming to secure its place and push for higher finishes, relying on the energy of its supporters and the quality of its players.
+    </string>
+
+        <!-- Fulham FC -->
+        <string name="fulham">Fulham</string>
+        <string name="fulham_subtitle">Fulham Football Club is a professional football club based in Fulham, West London. They are one of the oldest professional football clubs in London.</string>
+        <string name="fulham_established">1879</string>
+        <string name="fulham_details">
+        Fulham Football Club was founded in 1879 as Fulham St Andrew\'s Church Sunday School F.C., later becoming simply Fulham F.C. in 1888. They were elected to the Football League in 1907. The club has a long history of competing in the English Football League, experiencing promotions and relegations throughout its existence. As one of London\'s oldest clubs, it holds a significant place in the city\'s football heritage.\n\n
+        Fulham\'s most prominent recent period was in the Premier League in the 2000s and early 2010s, where they established themselves and even reached the UEFA Europa League final in 2010. The club has a reputation for playing attractive football and has featured many notable players. While they have experienced periods outside the Premier League, they have shown resilience in returning to the top flight.\n\n
+        Craven Cottage has been Fulham\'s home ground since 1896. Located on the banks of the River Thames, it is one of the most picturesque and historic football stadiums in England. The stadium has maintained much of its traditional charm while undergoing modernizations, including the redevelopment of the Riverside Stand, enhancing its facilities while retaining its unique character and connection to the river.\n\n
+        Fulham has a loyal fanbase, primarily located in West London and the surrounding areas. They have local rivalries with fellow West London clubs like Queens Park Rangers and Brentford. The club continues to compete in the Premier League, aiming to consolidate its position and build on its history, relying on its dedicated supporters and commitment to playing an appealing style of football.
+    </string>
+
+        <!-- West Ham United FC -->
+        <string name="west_ham">West Ham United</string>
+        <string name="west_ham_subtitle">West Ham United Football Club is a professional football club based in Stratford, East London. They are known for their strong academy history and loyal fanbase.</string>
+        <string name="west_ham_established">1895</string>
+        <string name="west_ham_details">
+        West Ham United was founded in 1895 as Thames Ironworks F.C. and was reformed as West Ham United in 1900. They joined the Football League in 1919. The club has a strong working-class heritage and deep roots in the East End of London. Early history is marked by its connection to the shipbuilding industry and a reputation for producing talented players.\n\n
+        West Ham United has a history of winning major domestic trophies, including multiple FA Cups. They also achieved international success by winning the UEFA Cup Winners Cup in 1965. While they have experienced periods of promotion and relegation, they are a consistently competitive side in the top flight, known for their attacking play and ability to cause upsets.\n\n
+        The club played at the Boleyn Ground (Upton Park) from 1904 until 2016. Upton Park was an iconic stadium with a vibrant atmosphere, deeply associated with the club\'s identity. In 2016, West Ham moved to the London Stadium (formerly the Olympic Stadium). This move significantly increased capacity and modernized facilities, marking a new era while aiming to retain the club\'s unique spirit in a larger venue.\n\n
+        West Ham United has a passionate and dedicated fanbase known as the "Irons" or the "Hammers." They have a notable rivalry with Millwall, although this fixture is now less frequent due to different league standings. The club continues to compete in the Premier League, aiming for European qualification and major silverware, relying on its strong team spirit and the unwavering support of its fans.
+    </string>
+
+        <!-- Wolverhampton Wanderers FC -->
+        <string name="wolves">Wolverhampton Wanderers</string>
+        <string name="wolves_subtitle">Wolverhampton Wanderers Football Club, commonly known as Wolves, is a professional football club based in Wolverhampton, West Midlands. They are one of the founding members of the Football League.</string>
+        <string name="wolves_established">1877</string>
+        <string name="wolves_details">
+        Wolverhampton Wanderers was founded in 1877 as St. Luke\'s F.C. and became Wolverhampton Wanderers in 1879. They were one of the twelve founding members of the Football League in 1888. The club had significant success in the post-war era, winning league titles and FA Cups, establishing themselves as a major force in English football. Their early participation in the Football League solidified their place in football history.\n\n
+        Wolves have a proud history of success, including winning the Football League First Division title multiple times and claiming the FA Cup on several occasions. They were also pioneers in European football, participating in early European competitions. While they have experienced periods in lower divisions, their return to the Premier League has seen them re-establish themselves as a competitive top-flight club known for their tactical discipline.\n\n
+        Molineux Stadium has been Wolverhampton Wanderers\' home ground since 1889. It is one of the oldest and most traditional football stadiums in England. Molineux has undergone significant redevelopment over the years to modernize its facilities and increase capacity, while maintaining its classic structure and close proximity to the pitch, contributing to a strong matchday atmosphere.\n\n
+        Wolverhampton Wanderers has a loyal fanbase, primarily from the Black Country region. They have a fierce local rivalry with West Bromwich Albion (the Black Country Derby). The club continues to compete in the Premier League, aiming to challenge for higher positions and potential European qualification, relying on strategic recruitment and a strong collective effort.
+    </string>
+
+        <!-- Everton FC -->
+        <string name="everton">Everton</string>
+        <string name="everton_subtitle">Everton Football Club is a professional football club based in Liverpool, England. They are one of the oldest and most historic clubs in English football.</string>
+        <string name="everton_established">1878</string>
+        <string name="everton_details">
+        Everton Football Club was founded in 1878 as St. Domingo F.C. and was renamed Everton in 1879. They were one of the twelve founding members of the Football League in 1888 and won their first League Championship in 1891. The club initially played at Anfield before moving to Goodison Park after a dispute with the landowner, solidifying their presence in Liverpool\'s footballing landscape.\n\n
+        Everton boasts a long and distinguished history of success, having won the English top-flight title multiple times and securing several FA Cup victories. They hold the record for the most seasons in the top division of English football. While they have faced challenges in recent years, their history is marked by periods of dominance and iconic players who have represented the club.\n\n
+        Goodison Park has been Everton\'s home stadium since 1892. It is one of the oldest purpose-built football stadiums in the world and is known for its traditional English football ground feel and passionate fanbase. The stadium has undergone various renovations and improvements over the years to enhance the matchday experience while retaining its historical character and importance to the club and its supporters.\n\n
+        Everton has a fiercely loyal fanbase, primarily from Liverpool and the surrounding areas. Their main and historic rivalry is with fellow Merseyside club Liverpool (the Merseyside Derby), one of the most long-standing and intense rivalries in English football. The club continues to compete in the Premier League, striving to improve its fortunes and build for the future, relying on the enduring support of the "Toffees."
+    </string>
+
+        <!-- Ipswich Town FC -->
+        <string name="ipswich_town">Ipswich Town</string>
+        <string name="ipswich_town_subtitle">Ipswich Town Football Club is a professional football club based in Ipswich, Suffolk. They have a history of success in both domestic and European competitions.</string>
+        <string name="ipswich_town_established">1878</string>
+        <string name="ipswich_town_details">
+        Ipswich Town Football Club was founded in 1878 as Ipswich A.F.C., changing its name to Ipswich Town in 1888. They joined the Football League in 1938. The club\'s early history is rooted in the local community and its journey through non-league football before joining the professional ranks. Their steady progress set the stage for future achievements.\n\n
+        Ipswich Town enjoyed significant success under managers like Sir Alf Ramsey and Bobby Robson, winning the Football League First Division title in 1962 and the FA Cup in 1978. They also achieved European glory by winning the UEFA Cup in 1981. The club is known for its periods of strong performance and a reputation for developing talented players.\n\n
+        Portman Road has been Ipswich Town\'s home ground since 1884. It is a traditional English football stadium with a strong atmosphere. Portman Road has undergone various redevelopments over the years to modernize its facilities and increase capacity, while maintaining its historical character and importance to the club and its supporters in Suffolk.\n\n
+        Ipswich Town has a loyal fanbase, primarily from Suffolk and the surrounding areas. They have a notable East Anglian rivalry with Norwich City, known as the Old Farm Derby. The club continues to compete, aiming to return to the top flight and emulate its past successes, relying on its history and the dedication of its supporters.
+    </string>
+
+        <!-- Leicester City FC -->
+        <string name="leicester_city">Leicester City</string>
+        <string name="leicester_city_subtitle">Leicester City Football Club is a professional football club based in Leicester, Leicestershire. They famously won the Premier League title in 2016.</string>
+        <string name="leicester_city_established">1884</string>
+        <string name="leicester_city_details">
+        Leicester City was founded in 1884 as Leicester Fosse and became Leicester City in 1919. They joined the Football League in 1894. The club has experienced fluctuating fortunes throughout its history, including promotions and relegations between the top divisions. The early history is marked by the club\'s establishment in Leicester and its journey through the early years of English football.\n\n
+        Leicester City achieved one of the most extraordinary feats in football history by winning the Premier League title in the 2015-2016 season, defying overwhelming odds. They have also won the FA Cup and League Cup. The club is known for its resilience and ability to build competitive teams, achieving significant success in both domestic and European competitions in recent years.\n\n
+        The King Power Stadium (formerly Walkers Stadium) has been Leicester City\'s home ground since 2002, replacing Filbert Street. It is a modern stadium with a good capacity and excellent facilities. The move to the King Power Stadium was important for the club\'s growth, providing a modern venue that reflects their ambitions and can accommodate their expanding fanbase.\n\n
+        Leicester City has a passionate fanbase, primarily from Leicestershire and the surrounding areas. They have local rivalries with Nottingham Forest and Derby County. The club continues to compete, aiming to return to the Premier League after a recent relegation and build on its historic achievements, relying on the strength of its squad and the support of the "Foxes" fans.
+    </string>
+
+        <!-- Southampton FC -->
+        <string name="southampton">Southampton</string>
+        <string name="southampton_subtitle">Southampton Football Club is a professional football club based in Southampton, Hampshire. They are known for their strong academy and tradition of developing young players.</string>
+        <string name="southampton_established">1885</string>
+        <string name="southampton_details">
+        Southampton Football Club was founded in 1885 as St. Mary\'s Church of England Young Men\'s Association F.C. and later became Southampton F.C. in 1897. They joined the Football League in 1920. The club has a strong connection to its local community and a history of competing in the Football League, establishing itself as a prominent club on the South Coast.\n\n
+        Southampton has a history of success in the FA Cup, winning the trophy in 1976. They have been a consistent presence in the top flight of English football for significant periods. The club is renowned for its excellent youth academy, which has produced numerous top-class players who have gone on to have successful careers in the Premier League and internationally.\n\n
+        Southampton played at The Dell from 1898 until 2001. The Dell was a much-loved, traditional stadium known for its tight confines and passionate atmosphere. In 2001, they moved to the St Mary\'s Stadium. This modern stadium significantly increased capacity and provided state-of-the-art facilities, marking a new era for the club while aiming to maintain a strong connection with its fanbase.\n\n
+        Southampton has a loyal fanbase, primarily from Hampshire and the surrounding areas. They have a notable South Coast rivalry with AFC Bournemouth and a historic rivalry with Portsmouth. The club continues to compete, aiming to secure its position in the Premier League and build on its tradition of developing talent, relying on its strong academy and the unwavering support of the "Saints."
+    </string>
 
 </resources>
