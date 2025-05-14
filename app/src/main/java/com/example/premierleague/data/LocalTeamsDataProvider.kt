@@ -21,39 +21,39 @@ object LocalTeamsDataProvider {
             ),
             PremierLeagueTeam(
                 id = 2,
-                teamTitle = R.string.arsenal,
-                teamStadium = R.string.arsenal_stadium,
-                teamEstablished = R.string.arsenal_established,
-                teamDetails = R.string.arsenal_details,
-                imageResourceId = R.drawable.arsenal_logo,
-                teamImageBanner = R.drawable.arsenal_banner
+                teamTitle = R.string.liverpool,
+                teamStadium = R.string.liverpool_stadium,
+                teamEstablished = R.string.liverpool_established,
+                teamDetails = R.string.liverpool_details,
+                imageResourceId = R.drawable.liverpool_logo,
+                teamImageBanner = R.drawable.liverpool_banner
             ),
             PremierLeagueTeam(
                 id = 3,
-                teamTitle = R.string.arsenal,
-                teamStadium = R.string.arsenal_stadium,
-                teamEstablished = R.string.arsenal_established,
-                teamDetails = R.string.arsenal_details,
-                imageResourceId = R.drawable.arsenal_logo,
-                teamImageBanner = R.drawable.arsenal_banner
+                teamTitle = R.string.man_city,
+                teamStadium = R.string.man_city_stadium,
+                teamEstablished = R.string.man_city_established,
+                teamDetails = R.string.man_city_details,
+                imageResourceId = R.drawable.mancity_logo,
+                teamImageBanner = R.drawable.man_city_banner
             ),
             PremierLeagueTeam(
                 id = 4,
-                teamTitle = R.string.arsenal,
-                teamStadium = R.string.arsenal_stadium,
-                teamEstablished = R.string.arsenal_established,
-                teamDetails = R.string.arsenal_details,
-                imageResourceId = R.drawable.arsenal_logo,
-                teamImageBanner = R.drawable.arsenal_banner
+                teamTitle = R.string.newcastle,
+                teamStadium = R.string.newcastle_stadium,
+                teamEstablished = R.string.newcastle_established,
+                teamDetails = R.string.newcastle_details,
+                imageResourceId = R.drawable.newcastle_logo,
+                teamImageBanner = R.drawable.newcastle_banner
             ),
             PremierLeagueTeam(
                 id = 5,
-                teamTitle = R.string.arsenal,
-                teamStadium = R.string.arsenal_stadium,
-                teamEstablished = R.string.arsenal_established,
-                teamDetails = R.string.arsenal_details,
-                imageResourceId = R.drawable.arsenal_logo,
-                teamImageBanner = R.drawable.arsenal_banner
+                teamTitle = R.string.chelsea,
+                teamStadium = R.string.chelsea_stadium,
+                teamEstablished = R.string.chelsea_established,
+                teamDetails = R.string.chelsea_details,
+                imageResourceId = R.drawable.chelsea_logo,
+                teamImageBanner = R.drawable.chelsea_banner
             ),
             PremierLeagueTeam(
                 id = 6,
