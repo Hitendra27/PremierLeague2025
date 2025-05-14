@@ -6,7 +6,7 @@ import androidx.annotation.StringRes
 data class PremierLeagueTeam(
     val id: Int,
     @StringRes val teamTitle: Int,
-    @StringRes val teamSubtitle: Int,
+    @StringRes val teamStadium: Int,
     @StringRes val teamEstablished: Int,
     @StringRes val teamDetails: Int,
     @DrawableRes val imageResourceId: Int,
