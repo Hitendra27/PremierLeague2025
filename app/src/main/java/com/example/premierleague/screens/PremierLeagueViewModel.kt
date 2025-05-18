@@ -7,40 +7,25 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 
-class PremierLeagueViewModel : ViewModel(){
+open class PremierLeagueViewModel : ViewModel() {
 
-    private val _uiState = MutableStateFlow(
-        PremierLeagueUiState(
-        leagueList = LocalTeamsDataProvider.getTeamsData(),
-        currentTeam = LocalTeamsDataProvider.getTeamsData().getOrElse(0) {
-            LocalTeamsDataProvider.defaultTeam
-        }
-        )
-    )
-
+    internal val _uiState = MutableStateFlow(PremierLeagueUiState())
     val uiState: StateFlow<PremierLeagueUiState> = _uiState
 
-    fun updateCurrentTeam(selectedTeam: PremierLeagueTeam) {
-        _uiState.update {
-            it.copy(currentTeam = selectedTeam)
-        }
+    init {
+        loadTeams()
     }
 
-    fun navigateToListPage() {
-        _uiState.update {
-            it.copy(isShowingListPage = true)
-        }
+    private fun loadTeams() {
+        _uiState.value = _uiState.value.copy(teamList = LocalTeamsDataProvider.getTeamsData() )
     }
 
-    fun navigateToDetailPage() {
-        _uiState.update {
-            it.copy(isShowingListPage = false)
-        }
+    fun selectTeam(team: PremierLeagueTeam) {
+        _uiState.value = _uiState.value.copy(selectedTeam = team)
     }
 }
 
 data class PremierLeagueUiState(
-    val leagueList: List<PremierLeagueTeam> = emptyList(),
-    val currentTeam: PremierLeagueTeam = LocalTeamsDataProvider.defaultTeam,
-    val isShowingListPage: Boolean = true
+    val teamList: List<PremierLeagueTeam> = emptyList(),
+    val selectedTeam: PremierLeagueTeam? = null
 )

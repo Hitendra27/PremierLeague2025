@@ -18,6 +18,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.premierleague.R
 import com.example.premierleague.ui.theme.PremierLeagueTheme
 
@@ -36,7 +37,8 @@ fun HomeScreen() {
                 .padding(16.dp)
         )
         Button(
-            onClick = {}
+            onClick = {
+            }
         ) {
             Text(
                 text = "Enter"
