@@ -41,6 +41,7 @@ A modern Android application that displays English Premier League teams and thei
 ## 📷 Screenshots
 
 ## 🏗️ Project Structure
+```
 com.example.premierleagueapp
 │
 ├── data
@@ -56,7 +57,7 @@ com.example.premierleagueapp
 │   └── viewmodel
 │
 └── MainActivity.kt
-
+```
 ## 🤝 Contributions
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
