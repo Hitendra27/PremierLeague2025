@@ -23,7 +23,9 @@ import com.example.premierleague.R
 import com.example.premierleague.ui.theme.PremierLeagueTheme
 
 @Composable
-fun HomeScreen() {
+fun HomeScreen(
+    onEnterClick: () -> Unit
+) {
     Column (
         modifier = Modifier
             .fillMaxSize(),
@@ -37,7 +39,7 @@ fun HomeScreen() {
                 .padding(16.dp)
         )
         Button(
-            onClick = {
+            onClick = { onEnterClick()
             }
         ) {
             Text(
@@ -45,15 +47,6 @@ fun HomeScreen() {
             )
 
         }
-        Image(
-            painter = painterResource(R.drawable.welcome_page),
-            contentDescription = "Android Welcome app",
-            contentScale = ContentScale.Crop,
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(390.dp)
-                .padding(top = 16.dp)
-        )
     }
 }
 
@@ -61,6 +54,8 @@ fun HomeScreen() {
 @Composable
 fun HomeScreenPreview() {
     PremierLeagueTheme {
-        HomeScreen()
+        HomeScreen(
+            onEnterClick = {}
+        )
     }
 }

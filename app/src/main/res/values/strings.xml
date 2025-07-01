@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">PremierLeague</string>
+    <string name="top_app_name">Premier League</string>
+
 
     <!-- Premier League Teams info -->
     <!-- Arsenal FC -->

@@ -1,6 +1,5 @@
 package com.example.premierleague.screens
 
-import android.R.attr.text
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -16,6 +15,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -44,6 +44,9 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.premierleague.R
+import androidx.compose.material.icons.filled.List
+import androidx.compose.material.icons.filled.Info
+
 
 
 sealed class Screen(val route: String, val label: String) {
@@ -62,7 +65,7 @@ fun PremierLeagueApp() {
 
     Scaffold(
         topBar = {
-            TopAppBar(
+            CenterAlignedTopAppBar(
                 title = {
                     when (currentDestination?.destination?.route) {
                         Screen.List.route -> {
@@ -74,9 +77,16 @@ fun PremierLeagueApp() {
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
                                 IconButton(onClick = { navController.popBackStack() }) {
-                                    Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                                    Icon(
+                                        Icons.Default.ArrowBack,
+                                        contentDescription = "Back",
+                                        tint = MaterialTheme.colorScheme.primary)
                                 }
-                                Text("Show Details")
+                                Text(
+                                    "Show Details",
+                                    color = MaterialTheme.colorScheme.onSurface,
+                                    modifier = Modifier.weight(1f)
+                                    )
                             }
                         }
 
@@ -88,17 +98,37 @@ fun PremierLeagueApp() {
             )
         },
         bottomBar = {
-            NavigationBar {
-                listOf(Screen.Home, Screen.List).forEach { screen ->
-                    NavigationBarItem(
-                        selected = currentDestination?.destination?.route == screen.route,
-                        onClick = { navController.navigate(screen.route) },
-                        icon = { Icon(Icons.Default.Favorite, contentDescription = null) },
-                        label = { Text(screen.label) }
-                    )
+            val route = currentDestination?.destination?.route
+
+            val showBottomBar = route == Screen.List.route || route == Screen.Detail.route
+
+            if (showBottomBar) {
+                NavigationBar {
+                    listOf(Screen.List, Screen.Detail).forEach { screen ->
+                        val icon = when (screen) {
+                            is Screen.List -> Icons.Default.List
+                            is Screen.Detail -> Icons.Default.Info
+                            else -> Icons.Default.Info
+                        }
+
+                        NavigationBarItem(
+                            selected = route == screen.route,
+                            onClick = {
+                                if (route != screen.route) {
+                                    navController.navigate(screen.route) {
+                                        popUpTo(Screen.List.route) { inclusive = false }
+                                        launchSingleTop = true
+                                    }
+                                }
+                            },
+                            icon = { Icon(icon, contentDescription = screen.label) },
+                            label = { Text(screen.label) }
+                        )
+                    }
                 }
             }
         }
+
     ) { innerPadding ->
         NavHost(
             navController = navController,
@@ -106,7 +136,11 @@ fun PremierLeagueApp() {
             modifier = Modifier.padding(innerPadding)
         ) {
             composable(Screen.Home.route) {
-                HomeScreen()
+                HomeScreen(
+                    onEnterClick = {
+                        navController.navigate(Screen.List.route)
+                    }
+                )
             }
             composable(Screen.List.route) {
                 PremierLeagueListScreen(
@@ -128,23 +162,22 @@ fun PremierLeagueApp() {
 
 @Composable
 fun ImageTopAppBar() {
-    Row(
-        verticalAlignment = Alignment.CenterVertically
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(120.dp)
+            .background(Color.LightGray),
+        contentAlignment = Alignment.Center
     ) {
         Image(
-            painter = painterResource(id = R.drawable.priemer_league_apptopbar),
-            contentDescription = "Premier League Banner",
-            contentScale = ContentScale.Fit, // Crop or FillBounds depending on image shape
+            painter = painterResource(R.drawable.premier_league_app),
+            contentDescription = "Top App Bar Image",
             modifier = Modifier
-                .size(64.dp)
-        )
-        Text(
-            text = stringResource(R.string.app_name),
-            style = MaterialTheme.typography.displayMedium,
-            modifier = Modifier.padding(start = 8.dp)
+                .height(120.dp)
         )
     }
 }
+
 
 
 @Preview(showBackground = true)

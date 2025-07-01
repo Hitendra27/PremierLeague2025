@@ -6,7 +6,9 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -76,10 +78,20 @@ fun PremierLeagueListScreen(
                         style = MaterialTheme.typography.displayMedium,
                         maxLines = 1
                     )
-                    Text(
-                        text = stringResource(team.teamStadium),
-                        style = MaterialTheme.typography.bodySmall
-                    )
+                    Spacer(modifier = Modifier.height(15.dp))
+                    Row(
+
+                    ) {
+                        Text(
+                            text = stringResource(team.teamStadium),
+                            style = MaterialTheme.typography.bodySmall
+                        )
+                        Spacer(Modifier.padding(10.dp))
+                        Text(
+                            text = stringResource(team.teamEstablished),
+                            style = MaterialTheme.typography.bodySmall
+                        )
+                    }
                 }
             }
         }
