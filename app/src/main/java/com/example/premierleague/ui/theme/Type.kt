@@ -12,13 +12,43 @@ val AbrilFatface = FontFamily(
     Font(R.font.abrilfatface_regular)
 )
 
+val Orbitron = FontFamily(
+    Font(R.font.orbitron_regular),
+    Font(R.font.orbitron_bold, FontWeight.Bold)
+)
+
 // Set of Material typography styles to start with
 val Typography = Typography(
 
+    titleMedium = TextStyle(
+        fontFamily = Orbitron,
+        fontWeight = FontWeight.Bold,
+        fontSize = 19.sp
+    ),
     displayLarge = TextStyle(
         fontFamily = AbrilFatface,
         fontWeight = FontWeight.Normal,
         fontSize = 36.sp
+    ),
+    displayMedium = TextStyle(
+        fontFamily = Orbitron,
+        fontWeight = FontWeight.Bold,
+        fontSize = 19.sp
+    ),
+    displaySmall = TextStyle(
+        fontFamily = Orbitron,
+        fontWeight = FontWeight.Bold,
+        fontSize = 14.sp
+    ),
+    labelMedium = TextStyle(
+        fontFamily = Orbitron,
+        fontWeight = FontWeight.Bold,
+        fontSize = 22.sp
+    ),
+    labelSmall = TextStyle(
+        fontFamily = Orbitron,
+        fontWeight = FontWeight.Bold,
+        fontSize = 12.sp
     ),
     bodyLarge = TextStyle(
         fontFamily = FontFamily.Default,

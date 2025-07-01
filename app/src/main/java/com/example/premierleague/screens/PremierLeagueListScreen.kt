@@ -75,23 +75,20 @@ fun PremierLeagueListScreen(
                 ) {
                     Text(
                         text = stringResource(team.teamTitle),
-                        style = MaterialTheme.typography.displayMedium,
+                        style = MaterialTheme.typography.titleMedium,
                         maxLines = 1
                     )
                     Spacer(modifier = Modifier.height(15.dp))
-                    Row(
 
-                    ) {
                         Text(
                             text = stringResource(team.teamStadium),
-                            style = MaterialTheme.typography.bodySmall
+                            style = MaterialTheme.typography.labelSmall
                         )
                         Spacer(Modifier.padding(10.dp))
                         Text(
                             text = stringResource(team.teamEstablished),
-                            style = MaterialTheme.typography.bodySmall
+                            style = MaterialTheme.typography.labelSmall
                         )
-                    }
                 }
             }
         }

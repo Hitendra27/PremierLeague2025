@@ -34,7 +34,7 @@ fun HomeScreen(
     ) {
         Text(
             text = "Welcome to Premier League App",
-            style = MaterialTheme.typography.headlineSmall,
+            style = MaterialTheme.typography.displayMedium,
             modifier = Modifier
                 .padding(16.dp)
         )
@@ -43,7 +43,8 @@ fun HomeScreen(
             }
         ) {
             Text(
-                text = "Enter"
+                text = "Enter",
+                style = MaterialTheme.typography.labelSmall
             )
 
         }
