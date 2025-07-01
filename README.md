@@ -36,6 +36,7 @@ A modern Android application that displays English Premier League teams and thei
      |
      v
 [ TeamListScreen ] <--> [ TeamDetailScreen ]
+```
 
 ## 📷 Screenshots
 
