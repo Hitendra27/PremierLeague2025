@@ -48,13 +48,20 @@ val Typography = Typography(
     labelSmall = TextStyle(
         fontFamily = Orbitron,
         fontWeight = FontWeight.Bold,
-        fontSize = 12.sp
+        fontSize = 15.sp
     ),
     bodyLarge = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         lineHeight = 24.sp,
+        letterSpacing = 0.5.sp
+    ),
+    bodyMedium = TextStyle(
+        fontFamily = Orbitron,
+        fontWeight = FontWeight.Bold,
+        fontSize = 14.sp,
+        lineHeight = 28.sp,
         letterSpacing = 0.5.sp
     )
     /* Other default text styles to override

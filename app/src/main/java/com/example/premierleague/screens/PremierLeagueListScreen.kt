@@ -52,7 +52,10 @@ fun PremierLeagueListScreen(
                 .clickable{
                     onTeamSelected(team)
                 },
-            elevation = CardDefaults.cardElevation(defaultElevation = 8.dp)
+            elevation = CardDefaults.cardElevation(defaultElevation = 8.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color(0xFF7D99AA) // 🎨 your custom color here
+            )
         ) {
             Row(
                 modifier = Modifier
@@ -76,18 +79,21 @@ fun PremierLeagueListScreen(
                     Text(
                         text = stringResource(team.teamTitle),
                         style = MaterialTheme.typography.titleMedium,
+                        color = Color(0xFFFFC493),
                         maxLines = 1
                     )
                     Spacer(modifier = Modifier.height(15.dp))
 
                         Text(
                             text = stringResource(team.teamStadium),
-                            style = MaterialTheme.typography.labelSmall
+                            style = MaterialTheme.typography.labelSmall,
+                            color = Color(0xFF262D2F)
                         )
                         Spacer(Modifier.padding(10.dp))
                         Text(
                             text = stringResource(team.teamEstablished),
-                            style = MaterialTheme.typography.labelSmall
+                            style = MaterialTheme.typography.labelSmall,
+                            color = Color(0xFF66F4FF)
                         )
                 }
             }

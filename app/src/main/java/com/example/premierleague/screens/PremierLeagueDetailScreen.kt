@@ -52,7 +52,8 @@ fun PremierLeagueDetailScreen(
         Text(
             text = "No team selected",
             modifier = Modifier.padding(16.dp),
-            style = MaterialTheme.typography.bodyMedium
+            style = MaterialTheme.typography.bodyMedium,
+            color = Color(0xFF7D99AA)
         )
         return
     }
@@ -83,6 +84,7 @@ fun PremierLeagueDetailScreen(
                     Text(
                         text = stringResource(selectedTeam.teamTitle),
                         style = MaterialTheme.typography.titleMedium,
+                        color = Color(0xFF7D99AA),
                         modifier = Modifier
                             .background(Color.White)
                             .padding(4.dp) // optional for spacing inside background
@@ -100,7 +102,8 @@ fun PremierLeagueDetailScreen(
         }
         Text(
             text = stringResource(selectedTeam.teamDetails),
-            style = MaterialTheme.typography.labelSmall,
+            style = MaterialTheme.typography.bodyMedium,
+            color = Color(0xFF7D99AA),
             modifier = Modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)
         )
     }

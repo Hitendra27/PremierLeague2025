@@ -2,6 +2,7 @@ package com.example.premierleague.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -12,6 +13,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Favorite
@@ -46,7 +48,7 @@ import androidx.navigation.compose.composable
 import com.example.premierleague.R
 import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Info
-
+import androidx.compose.ui.draw.clip
 
 
 sealed class Screen(val route: String, val label: String) {
@@ -77,21 +79,34 @@ fun PremierLeagueApp() {
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
                                 IconButton(onClick = { navController.popBackStack() }) {
-                                    Icon(
-                                        Icons.Default.ArrowBack,
-                                        contentDescription = "Back",
-                                        tint = MaterialTheme.colorScheme.primary)
+                                    Box(
+                                        modifier = Modifier
+                                            .size(40.dp) // total clickable area
+                                            .clip(RoundedCornerShape(12.dp)) // rounded corners
+                                            .background(Color(0xFFFFC067)) // background color
+                                            .clickable { navController.popBackStack() },
+                                        contentAlignment = Alignment.Center
+                                    ) {
+                                        Icon(
+                                            imageVector = Icons.Default.ArrowBack,
+                                            contentDescription = "Back",
+                                            tint = Color(0xFF245E6F), // icon color
+                                            modifier = Modifier.size(24.dp)
+                                        )
+                                    }
+
                                 }
                                 Text(
                                     "Show Details",
-                                    color = MaterialTheme.colorScheme.onSurface,
+                                    style = MaterialTheme.typography.titleMedium,
+                                    color = Color(0xFF7D99AA),
                                     modifier = Modifier.weight(1f)
                                     )
                             }
                         }
 
 
-                        else -> "TV Show App"
+                        else -> "Premier League App"
                     }
                 }
 
