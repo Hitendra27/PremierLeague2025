@@ -40,6 +40,9 @@ A modern Android application that displays English Premier League teams and thei
 
 ## 📷 Screenshots
 
+![Screenshot_20250707_122210](https://github.com/user-attachments/assets/8ce73c83-1ec6-41fc-a42f-14a1c4713149)
+
+
 ## 🏗️ Project Structure
 ```
 com.example.premierleagueapp
