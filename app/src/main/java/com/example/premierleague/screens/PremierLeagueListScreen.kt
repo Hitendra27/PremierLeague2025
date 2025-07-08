@@ -87,7 +87,8 @@ fun PremierLeagueListScreen(
                         Text(
                             text = stringResource(team.teamStadium),
                             style = MaterialTheme.typography.labelSmall,
-                            color = Color(0xFF262D2F)
+                            color = Color(0xFF262D2F),
+                            maxLines = 1
                         )
                         Spacer(Modifier.padding(10.dp))
                         Text(

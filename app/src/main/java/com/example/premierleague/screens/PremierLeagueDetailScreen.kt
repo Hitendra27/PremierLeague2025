@@ -90,13 +90,22 @@ fun PremierLeagueDetailScreen(
                             .padding(4.dp) // optional for spacing inside background
                     )
                 }
+
                 Spacer(Modifier.height(4.dp))
+
+                Box(
+                    modifier = Modifier.fillMaxWidth(),
+                    contentAlignment = Alignment.CenterEnd
+                ) {
                 Text(
                     text = stringResource(selectedTeam.teamStadium),
                     style = MaterialTheme.typography.labelSmall,
-                    textAlign = TextAlign.Right,
-                    modifier = Modifier.fillMaxWidth()
+                    color = Color.White,
+                    modifier = Modifier
+                        .background(Color.DarkGray)
+                        .padding(4.dp)
                 )
+            }
             }
 
         }
